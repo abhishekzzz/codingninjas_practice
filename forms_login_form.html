@@ -9,31 +9,39 @@
 	<form>
 		<div>
 			<label for="username"> Username </label> <br>
-			<input type="text" id="username" required>
+			<input type="text" name="username" id="username" required>
+		</div>
+		<div>
+			<label for="country"> Country </label> <br>
+			<input type="country" name="country" id="country" value="India" required>
+		</div>
+		<div>
+			<label for="country"> Country </label> <br>
+			<input type="country" name="country" id="country" value="India" required disabled>
 		</div>
 		<div>
 			<label for="password"> Password </label> <br>
-			<input type="password" id="password" required>
+			<input type="password" name="password" id="password" required>
 		</div>
 		<div>
 			<label for="number"> Number </label> <br>
-			<input type="number" id="number" required>
+			<input type="number" name="number" id="number" required>
 		</div>
 		<div>
 			<label for="time"> Time </label> <br>
-			<input type="time" id="time" required>
+			<input type="time" name="time" id="time" required>
 		</div>
 		<div>
 			<label for="range"> Range </label> <br>
-			<input type="range" id="range" required min="10" max="50" step="10">
+			<input type="range" name="range" id="range" required min="10" max="50" step="10">
 		</div>
 		<div>
 			<label for="url"> URL </label> <br>
-			<input type="url" id="url" required placeholder="https://www.google.com">
+			<input type="url" name="url" id="url" required placeholder="https://www.google.com">
 		</div>
 		<div>
 			<label for="email"> Email </label> <br>
-			<input type="email" id="email" required placeholder="abc@email.com">
+			<input type="email" name="email" id="email" required placeholder="abc@email.com">
 		</div>
 		<div>
 			<input type="submit">
