@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create Multiple Forms</title>
+	<style>
+			div {
+	        margin-bottom: 5px;
+	      }
+	      label {
+	        display: inline-block;
+	        width: 130px;
+	      }
+	      label span{
+	        display: inline-block;
+	        width: 130px;
+	        text-align: 130px;
+	      }
+	      
+	      
+	      
+
+		</style>
+</head>
+<body>
+	<form>
+		<h2>Already Registered? <u>LOGIN</u> now</h2>
+		<div>
+			Email <input type="email" name="email"
+			id="email"
+			required
+			placeholder="abc@gmail.com">
+			Password <input type="password" name="password"
+			id="password"
+			required>
+			<button ><img src="static/logo_switchtocode.png" height="10" width="30"> Login
+			</button>
+		</div>
+	</form>
+	<br>
+	<hr>
+	<div>
+		<p>
+			<a href="http://blog.codingninjas.in/"><b>Coding Ninjas Blogs</b></a>
+		</p>
+		<img src="static/coding_ninjas.png" height="100%" width="100%">
+	</div>
+	<br>
+	<hr>
+
+	<form>
+		<h2><u>REGISTRATION</u></h2>
+		<div>
+			<label for="firstname">First Name:</label>
+			<input type="text" name="firstname" id="firstname">
+		</div>
+		<div>
+			<label for="lastname">Last Name:</label>
+			<input type="text" name="lastname" id="lastname">
+		</div>
+	</form>
+	<form>
+
+		<div>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<label for="housenumber" >Flat No./House No.</label>
+			<input type="text" name="housenumber" id="housenumber">
+		</div>
+		<div>
+			Current Address :&emsp;&nbsp;<label for="locality">Locality</label>
+			<input type="text" name="locality" id="locality">
+		</div>
+		<div>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<label for="city">City</label>
+			<input type="text" name="city" id="city">
+		</div>
+		<div>
+		<b>Is Current address and Permanent address same?</b>
+		<input type="radio" name="option" value="Yes" checked> Yes
+		<input type="radio" name="option" value="No"> No
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" placeholder="abc@gmail.com">
+		</div>
+		<div>
+			<label for="Password">Password</label>
+			<input type="password" name="Password" id="Password">
+		</div>
+		<p>
+		<button>Register</button></p>
+	</form>
+</body>
+</html>
