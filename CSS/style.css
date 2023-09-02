@@ -1,3 +1,12 @@
-header {
-  color: darkred;
+header{
+	color: darkred;
+    height: 400px
+}
+
+article {
+    width: 1000px
+}
+
+p{
+	color: orange;
 }
