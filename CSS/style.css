@@ -1,6 +1,5 @@
 header{
 	color: darkred;
-    height: 400px
 }
 
 article {
@@ -9,12 +8,31 @@ article {
 
 p{
 	color: orange;
+/*	font-family: sans-serif;*/
+}
+
+h1{
+	font-size: 40px;
+/*	font-family: sans-serif;*/
+}
+
+p,h1 {
+	font-family: sans-serif;
+}
+
+#blog-title:hover{
+	color:purple;
 }
 
 /*h4{
 	text-transform: uppercase;
 }*/
 
+/*li h4{
+	text-transform: uppercase;
+	font-family: cursive;
+}
+*/
 .uppercase {
 	text-transform: uppercase;
 }
