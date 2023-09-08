@@ -14,3 +14,21 @@
 	width: 50%;
 	background-color: cyan;
 }
+
+/*this below will be priority as it is below*/
+#div1{
+	height: 100vh;
+	width: 100vw;
+	background-color: hsla(340, 89%, 53%, 0.5);
+	/*hsl(240, 89%, 53%);*/
+	/*rgba(25, 126, 200, 0.5);*/
+	/*rgb(250, 126, 200);*/
+	/*#393a7b;*/
+	/*	red;*/
+}
+
+#div2{
+	height: 50%;
+	width: 50%;
+	background-color: red;
+}
