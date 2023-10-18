@@ -1,0 +1,12 @@
+#sample-para {
+  font-size: 40px;
+  color: blue;
+  /*between 100-900 here 700 is for bold*/
+  font-weight: 700;
+  /*it can be left align or right align etc etc*/
+  text-align: justify;
+  /*space between lines*/
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
